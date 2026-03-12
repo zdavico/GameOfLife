@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# ── Sensitive data ──────────────────────────
+# The CSV contains real student PII.
+# NEVER commit it to a public repository.
+data/master.csv
+data/*.csv
+data/*.xlsx
+
+# The generated JSON also contains student data.
+# Uncomment the line below if deploying to a PUBLIC repo.
+# src/data/students.json
