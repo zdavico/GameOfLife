@@ -201,7 +201,7 @@ The `data/master.csv` file and the generated `src/data/students.json` contain st
 - If your repo is **public**, uncomment the `src/data/students.json` line in `.gitignore` and use a private repo instead
 - For a **private repo**, this is fine as-is
 
-Recommendation: use a **private GitHub repository** for this project.
+Easy fix for testing: anonymize sID's, Fname, Lname in master.csv and use localhost or push to private, password-protected page when "live"
 
 
 ## Updating Student Data
